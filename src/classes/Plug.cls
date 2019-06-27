@@ -224,7 +224,7 @@ global abstract class Plug implements Pluggable {
     }
     
     //plugit discovery
-    global virtual Pluggable plugin( String plugitName ){
+    global static Pluggable plugin( String plugitName ){
         return PluggableFactory.plugin( plugitName );
     }
 
