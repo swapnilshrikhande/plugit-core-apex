@@ -12,7 +12,7 @@ Ever wondered if the apex software blocks can be easily installed and plugged in
 ## Key Features
 - Develop modular and interoperable apex services called as plugits 
 - Supports extensible service factory to add custom service factory
-- Service factory can be extended to hide implementation details of the service, i.e. the name of the service can be a local class or can be a remote service. Thus without changing the consumer we can swap the service implementation from local class to a external service. (eg AWS Lambda)
+- Service factory can be extended to hide implementation details of the service, i.e. the name of the service can be a local class or can be a remote service. Thus without changing the consumer we can swap the service implementation from local class to an external service. (eg AWS Lambda)
 - All default methods can be overriden to extend the framework
 - Use pipe keyword to easily chain multiple plugits like below
 
