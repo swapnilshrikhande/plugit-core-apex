@@ -110,7 +110,7 @@ public class AdditionServiceFailed extends Plug {
 
 ```
 
-### Invoke as a normal class or from another Plugit
+### Invoke from a normal Apex class or from another Plugit
 
 #### Normal Class : 
 ```
